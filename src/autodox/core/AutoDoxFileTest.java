@@ -1,17 +1,15 @@
 package autodox.core;
 
-import static org.powermock.api.easymock.PowerMock.createMock;
 import static org.easymock.EasyMock.expect;
 import static org.easymock.EasyMock.verify;
 import static org.easymock.classextension.EasyMock.replay;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertThat;
+import static org.powermock.api.easymock.PowerMock.createMock;
 
-import java.io.File;
 import java.util.List;
 
-import org.easymock.classextension.EasyMock;
 import org.eclipse.jdt.core.IAnnotation;
 import org.eclipse.jdt.core.IMethod;
 import org.eclipse.jdt.core.IType;
